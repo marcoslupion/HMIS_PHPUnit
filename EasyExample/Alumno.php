@@ -15,15 +15,6 @@ final class Alumno
         $this->correo = "default@correo.com";
         $this->nota_media = "0";
     }
-/*
-    public function __construct($nombre,$apellidos,$correo,$nota)
-    {
-        $this->$nombre = $nombre;
-        $this->$apellidos = $apellidos;
-        $this->$correo = $correo;
-        $this->$nota_media = $nota;
-    }
-*/
 
     public function toString()
     {
@@ -34,6 +25,7 @@ final class Alumno
       $cadena=$cadena . "Nota Media: " . $this->nota_media . "/n";
       return $cadena;
     }
+	
     public function cambiar_propiedad($propiedad,$valor){
       if($propiedad=="nombre"){
         $this->nombre = $valor;
