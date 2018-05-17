@@ -13,7 +13,7 @@ final class Alumno
         $this->nombre = "default";
         $this->apellidos = "default";
         $this->correo = "default@correo.com";
-        $this->nota_media = "0";
+        $this->nota_media = 0;
     }
 
     public function toString()
@@ -42,6 +42,10 @@ final class Alumno
         echo "ERROR";
       }
     }
-
-
+	
+	public function calcular_nota_media($nota1,$nota2){
+		$nota_media = ($nota1 + $nota2) / 2;
+		$this -> cambiar_propiedad("nota",$nota_media);
+	}
+	
 }
