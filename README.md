@@ -14,3 +14,5 @@ Además, se utiliza una test suite para almacenar los test que se van a ejecutar
 ### Coverage
 En esta carpeta se encuentra la ejecucion del coverage a los test que se han realizado en formato _HTML_
 
+### Presentacion
+Aquí se encuentra la presentacion que se ha realizado en clase.
